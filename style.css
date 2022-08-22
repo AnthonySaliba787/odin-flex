@@ -15,7 +15,7 @@ body {
 
 .nav-bar {
   position: relative;
-  background-color: black;
+  background-color: #1f2937;
   display: flex;
   width: 100%;
   height: auto;
@@ -75,4 +75,62 @@ p {
   height: 30px;
   color: white;
   font-weight: bold;
+}
+
+.info-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mid-title {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-holder {
+  position: inherit;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.illustration {
+  position: relative;
+  border-radius: 12px;
+  width: 10%;
+  border: 4px solid blue;
+}
+
+.image-captions {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image-captions p {
+  font-size: 14px;
+  color: #6a6a6a;
+  word-wrap: break-word;
+  width: 10%;
+  text-align: center;
+}
+
+.mid-title p {
+  font-size: 34px;
+  font-weight: bolder;
+  color: #1f2937;
 }
