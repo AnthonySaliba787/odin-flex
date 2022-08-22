@@ -4,14 +4,18 @@ body {
 }
 
 .hero {
+  position: relative;
   display: flex;
   width: 100%;
-  height: auto;
-  justify-content: center;
+  height: 730px;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: #1f2937;
 }
 
 .nav-bar {
+  position: relative;
+  background-color: black;
   display: flex;
   width: 100%;
   height: auto;
@@ -20,6 +24,7 @@ body {
 }
 
 .small-headers {
+  position: relative;
   display: flex;
   width: auto;
   height: auto;
@@ -29,13 +34,45 @@ body {
 }
 
 #logo {
+  position: relative;
   font-weight: 700;
   font-size: 24px;
   color: #f9faf8;
 }
 
-h6 {
+p {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: lighter;
+}
+
+.main-content {
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-flow: column;
+}
+
+#hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-bottom: 0px;
+}
+
+#hero-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+
+#hero-button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  width: 25%;
+  height: 30px;
+  color: white;
+  font-weight: bold;
 }
